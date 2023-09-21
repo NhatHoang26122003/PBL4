@@ -15,10 +15,9 @@ public class View extends JFrame {
 		this.setTitle("Short Path Routing");
 		this.setDefaultCloseOperation(3);
 		this.setLocationRelativeTo(null);
-		JRadio btn_1;
+		JButton btn_1;
 		btn_1 = new JButton ("Chọn");
 		Border borderTiltle = BorderFactory.createLineBorder(Color.BLUE);
-		
 		
 		this.setVisible(true);
 	}
